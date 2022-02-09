@@ -7,4 +7,7 @@ function jump(){
     setTimeout(function(){
         character.classList.remove("animate");
     },300);
+    
+    counter = counter + 5;
+    document.getElementById("scoreSpan").innerHTML = Math.floor(counter/100);
 }
