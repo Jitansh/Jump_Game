@@ -8,6 +8,6 @@ function jump(){
         character.classList.remove("animate");
     },300);
     
-    counter = counter + 5;
+    counter = counter + 100;
     document.getElementById("scoreSpan").innerHTML = Math.floor(counter/100);
 }
